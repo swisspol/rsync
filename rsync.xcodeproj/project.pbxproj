@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E240CF68184AD3490083A56E /* access.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CE76184AD3490083A56E /* access.c */; };
+		E240CF69184AD3490083A56E /* acls.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CE78184AD3490083A56E /* acls.c */; };
+		E240CF6A184AD3490083A56E /* authenticate.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CE79184AD3490083A56E /* authenticate.c */; };
+		E240CF6B184AD3490083A56E /* backup.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CE7A184AD3490083A56E /* backup.c */; };
+		E240CF6C184AD3490083A56E /* batch.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CE7B184AD3490083A56E /* batch.c */; };
+		E240CF6D184AD3490083A56E /* checksum.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CE7E184AD3490083A56E /* checksum.c */; };
+		E240CF6E184AD3490083A56E /* chmod.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CE7F184AD3490083A56E /* chmod.c */; };
+		E240CF6F184AD3490083A56E /* cleanup.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CE80184AD3490083A56E /* cleanup.c */; };
+		E240CF70184AD3490083A56E /* clientname.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CE81184AD3490083A56E /* clientname.c */; };
+		E240CF71184AD3490083A56E /* clientserver.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CE82184AD3490083A56E /* clientserver.c */; };
+		E240CF72184AD3490083A56E /* compat.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CE83184AD3490083A56E /* compat.c */; };
+		E240CF73184AD3490083A56E /* connection.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CE8D184AD3490083A56E /* connection.c */; };
+		E240CF74184AD3490083A56E /* delete.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CE90184AD3490083A56E /* delete.c */; };
+		E240CF75184AD3490083A56E /* exclude.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CE97184AD3490083A56E /* exclude.c */; };
+		E240CF76184AD3490083A56E /* fileio.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CE98184AD3490083A56E /* fileio.c */; };
+		E240CF77184AD3490083A56E /* flist.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CE99184AD3490083A56E /* flist.c */; };
+		E240CF78184AD3490083A56E /* generator.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CE9A184AD3490083A56E /* generator.c */; };
+		E240CF7B184AD3490083A56E /* hashtable.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CE9D184AD3490083A56E /* hashtable.c */; };
+		E240CF7C184AD3490083A56E /* hlink.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CE9E184AD3490083A56E /* hlink.c */; };
+		E240CF7D184AD3490083A56E /* io.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CEA3184AD3490083A56E /* io.c */; };
+		E240CF8B184AD3490083A56E /* loadparm.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CEBE184AD3490083A56E /* loadparm.c */; };
+		E240CF8C184AD3490083A56E /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CEBF184AD3490083A56E /* log.c */; };
+		E240CF8D184AD3490083A56E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CEC0184AD3490083A56E /* main.c */; };
+		E240CF8F184AD3490083A56E /* match.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CEC3184AD3490083A56E /* match.c */; };
+		E240CF90184AD3490083A56E /* options.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CEC7184AD3490083A56E /* options.c */; };
+		E240CF92184AD3490083A56E /* pipe.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CED8184AD3490083A56E /* pipe.c */; };
+		E240CF99184AD3490083A56E /* progress.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CEEB184AD3490083A56E /* progress.c */; };
+		E240CF9A184AD3490083A56E /* receiver.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CEEF184AD3490083A56E /* receiver.c */; };
+		E240CF9C184AD3490083A56E /* rsync.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CEF3184AD3490083A56E /* rsync.c */; };
+		E240CF9D184AD3490083A56E /* sender.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CEFB184AD3490083A56E /* sender.c */; };
+		E240CF9E184AD3490083A56E /* socket.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CEFE184AD3490083A56E /* socket.c */; };
+		E240CFA1184AD3490083A56E /* syscall.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CF15184AD3490083A56E /* syscall.c */; };
+		E240CFA6184AD3490083A56E /* token.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CF45184AD3490083A56E /* token.c */; };
+		E240CFA8184AD3490083A56E /* uidlist.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CF48184AD3490083A56E /* uidlist.c */; };
+		E240CFA9184AD3490083A56E /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CF49184AD3490083A56E /* util.c */; };
+		E240CFAA184AD3490083A56E /* util2.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CF4A184AD3490083A56E /* util2.c */; };
+		E240CFAC184AD3490083A56E /* xattrs.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CF4D184AD3490083A56E /* xattrs.c */; };
+		E240CFAD184AD3490083A56E /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CF4F184AD3490083A56E /* adler32.c */; };
+		E240CFAE184AD3490083A56E /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CF51184AD3490083A56E /* compress.c */; };
+		E240CFAF184AD3490083A56E /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CF52184AD3490083A56E /* crc32.c */; };
+		E240CFB0184AD3490083A56E /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CF54184AD3490083A56E /* deflate.c */; };
+		E240CFB1184AD3490083A56E /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CF59184AD3490083A56E /* inffast.c */; };
+		E240CFB2184AD3490083A56E /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CF5C184AD3490083A56E /* inflate.c */; };
+		E240CFB3184AD3490083A56E /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CF5E184AD3490083A56E /* inftrees.c */; };
+		E240CFB4184AD3490083A56E /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CF62184AD3490083A56E /* trees.c */; };
+		E240CFB5184AD3490083A56E /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CF66184AD3490083A56E /* zutil.c */; };
+		E240CFC8184ADB100083A56E /* findme.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CFBD184ADB100083A56E /* findme.c */; };
+		E240CFC9184ADB100083A56E /* popt.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CFBF184ADB100083A56E /* popt.c */; };
+		E240CFCA184ADB100083A56E /* poptconfig.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CFC1184ADB100083A56E /* poptconfig.c */; };
+		E240CFCB184ADB100083A56E /* popthelp.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CFC2184ADB100083A56E /* popthelp.c */; };
+		E240CFCC184ADB100083A56E /* poptparse.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CFC4184ADB100083A56E /* poptparse.c */; };
+		E240CFF3184ADECB0083A56E /* compat.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CFD4184ADECB0083A56E /* compat.c */; };
+		E240CFF6184ADECB0083A56E /* getpass.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CFD9184ADECB0083A56E /* getpass.c */; };
+		E240CFF9184ADECB0083A56E /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CFDC184ADECB0083A56E /* md5.c */; };
+		E240CFFB184ADECB0083A56E /* mdfour.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CFDE184ADECB0083A56E /* mdfour.c */; };
+		E240CFFD184ADECB0083A56E /* permstring.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CFE1184ADECB0083A56E /* permstring.c */; };
+		E240CFFF184ADECB0083A56E /* pool_alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CFE5184ADECB0083A56E /* pool_alloc.c */; };
+		E240D001184ADECB0083A56E /* snprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CFE8184ADECB0083A56E /* snprintf.c */; };
+		E240D003184ADECB0083A56E /* sysacls.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CFEA184ADECB0083A56E /* sysacls.c */; };
+		E240D005184ADECB0083A56E /* sysxattrs.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CFED184ADECB0083A56E /* sysxattrs.c */; };
+		E240D007184ADECB0083A56E /* wildmatch.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CFF0184ADECB0083A56E /* wildmatch.c */; };
+		E240D009184B10590083A56E /* params.c in Sources */ = {isa = PBXBuildFile; fileRef = E240CFB6184ADB010083A56E /* params.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E240CE46184AD2B00083A56E /* rsync */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rsync; sourceTree = BUILT_PRODUCTS_DIR; };
+		E240CE76184AD3490083A56E /* access.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = access.c; sourceTree = "<group>"; };
+		E240CE78184AD3490083A56E /* acls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acls.c; sourceTree = "<group>"; };
+		E240CE79184AD3490083A56E /* authenticate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = authenticate.c; sourceTree = "<group>"; };
+		E240CE7A184AD3490083A56E /* backup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = backup.c; sourceTree = "<group>"; };
+		E240CE7B184AD3490083A56E /* batch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = batch.c; sourceTree = "<group>"; };
+		E240CE7C184AD3490083A56E /* byteorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = byteorder.h; sourceTree = "<group>"; };
+		E240CE7D184AD3490083A56E /* case_N.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = case_N.h; sourceTree = "<group>"; };
+		E240CE7E184AD3490083A56E /* checksum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = checksum.c; sourceTree = "<group>"; };
+		E240CE7F184AD3490083A56E /* chmod.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = chmod.c; sourceTree = "<group>"; };
+		E240CE80184AD3490083A56E /* cleanup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cleanup.c; sourceTree = "<group>"; };
+		E240CE81184AD3490083A56E /* clientname.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = clientname.c; sourceTree = "<group>"; };
+		E240CE82184AD3490083A56E /* clientserver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = clientserver.c; sourceTree = "<group>"; };
+		E240CE83184AD3490083A56E /* compat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compat.c; sourceTree = "<group>"; };
+		E240CE85184AD3490083A56E /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		E240CE8D184AD3490083A56E /* connection.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = connection.c; sourceTree = "<group>"; };
+		E240CE90184AD3490083A56E /* delete.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = delete.c; sourceTree = "<group>"; };
+		E240CE96184AD3490083A56E /* errcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errcode.h; sourceTree = "<group>"; };
+		E240CE97184AD3490083A56E /* exclude.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = exclude.c; sourceTree = "<group>"; };
+		E240CE98184AD3490083A56E /* fileio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileio.c; sourceTree = "<group>"; };
+		E240CE99184AD3490083A56E /* flist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = flist.c; sourceTree = "<group>"; };
+		E240CE9A184AD3490083A56E /* generator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = generator.c; sourceTree = "<group>"; };
+		E240CE9D184AD3490083A56E /* hashtable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hashtable.c; sourceTree = "<group>"; };
+		E240CE9E184AD3490083A56E /* hlink.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hlink.c; sourceTree = "<group>"; };
+		E240CE9F184AD3490083A56E /* ifuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ifuncs.h; sourceTree = "<group>"; };
+		E240CEA2184AD3490083A56E /* inums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inums.h; sourceTree = "<group>"; };
+		E240CEA3184AD3490083A56E /* io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = io.c; sourceTree = "<group>"; };
+		E240CEA4184AD3490083A56E /* io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = io.h; sourceTree = "<group>"; };
+		E240CEA5184AD3490083A56E /* itypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = itypes.h; sourceTree = "<group>"; };
+		E240CEBE184AD3490083A56E /* loadparm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loadparm.c; sourceTree = "<group>"; };
+		E240CEBF184AD3490083A56E /* log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = log.c; sourceTree = "<group>"; };
+		E240CEC0184AD3490083A56E /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		E240CEC3184AD3490083A56E /* match.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = match.c; sourceTree = "<group>"; };
+		E240CEC7184AD3490083A56E /* options.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = options.c; sourceTree = "<group>"; };
+		E240CED8184AD3490083A56E /* pipe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pipe.c; sourceTree = "<group>"; };
+		E240CEEB184AD3490083A56E /* progress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = progress.c; sourceTree = "<group>"; };
+		E240CEEC184AD3490083A56E /* proto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proto.h; sourceTree = "<group>"; };
+		E240CEEF184AD3490083A56E /* receiver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = receiver.c; sourceTree = "<group>"; };
+		E240CEF3184AD3490083A56E /* rsync.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rsync.c; sourceTree = "<group>"; };
+		E240CEF4184AD3490083A56E /* rsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsync.h; sourceTree = "<group>"; };
+		E240CEFB184AD3490083A56E /* sender.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sender.c; sourceTree = "<group>"; };
+		E240CEFE184AD3490083A56E /* socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = socket.c; sourceTree = "<group>"; };
+		E240CF15184AD3490083A56E /* syscall.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = syscall.c; sourceTree = "<group>"; };
+		E240CF45184AD3490083A56E /* token.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = token.c; sourceTree = "<group>"; };
+		E240CF48184AD3490083A56E /* uidlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uidlist.c; sourceTree = "<group>"; };
+		E240CF49184AD3490083A56E /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		E240CF4A184AD3490083A56E /* util2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util2.c; sourceTree = "<group>"; };
+		E240CF4D184AD3490083A56E /* xattrs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xattrs.c; sourceTree = "<group>"; };
+		E240CF4F184AD3490083A56E /* adler32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adler32.c; sourceTree = "<group>"; };
+		E240CF51184AD3490083A56E /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
+		E240CF52184AD3490083A56E /* crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crc32.c; sourceTree = "<group>"; };
+		E240CF53184AD3490083A56E /* crc32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crc32.h; sourceTree = "<group>"; };
+		E240CF54184AD3490083A56E /* deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deflate.c; sourceTree = "<group>"; };
+		E240CF55184AD3490083A56E /* deflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deflate.h; sourceTree = "<group>"; };
+		E240CF58184AD3490083A56E /* gzguts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gzguts.h; sourceTree = "<group>"; };
+		E240CF59184AD3490083A56E /* inffast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inffast.c; sourceTree = "<group>"; };
+		E240CF5A184AD3490083A56E /* inffast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inffast.h; sourceTree = "<group>"; };
+		E240CF5B184AD3490083A56E /* inffixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inffixed.h; sourceTree = "<group>"; };
+		E240CF5C184AD3490083A56E /* inflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inflate.c; sourceTree = "<group>"; };
+		E240CF5D184AD3490083A56E /* inflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inflate.h; sourceTree = "<group>"; };
+		E240CF5E184AD3490083A56E /* inftrees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inftrees.c; sourceTree = "<group>"; };
+		E240CF5F184AD3490083A56E /* inftrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inftrees.h; sourceTree = "<group>"; };
+		E240CF62184AD3490083A56E /* trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = trees.c; sourceTree = "<group>"; };
+		E240CF63184AD3490083A56E /* trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trees.h; sourceTree = "<group>"; };
+		E240CF64184AD3490083A56E /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zconf.h; sourceTree = "<group>"; };
+		E240CF65184AD3490083A56E /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
+		E240CF66184AD3490083A56E /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
+		E240CF67184AD3490083A56E /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zutil.h; sourceTree = "<group>"; };
+		E240CFB6184ADB010083A56E /* params.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = params.c; sourceTree = "<group>"; };
+		E240CFBD184ADB100083A56E /* findme.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = findme.c; sourceTree = "<group>"; };
+		E240CFBE184ADB100083A56E /* findme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = findme.h; sourceTree = "<group>"; };
+		E240CFBF184ADB100083A56E /* popt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = popt.c; sourceTree = "<group>"; };
+		E240CFC0184ADB100083A56E /* popt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = popt.h; sourceTree = "<group>"; };
+		E240CFC1184ADB100083A56E /* poptconfig.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = poptconfig.c; sourceTree = "<group>"; };
+		E240CFC2184ADB100083A56E /* popthelp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = popthelp.c; sourceTree = "<group>"; };
+		E240CFC3184ADB100083A56E /* poptint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = poptint.h; sourceTree = "<group>"; };
+		E240CFC4184ADB100083A56E /* poptparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = poptparse.c; sourceTree = "<group>"; };
+		E240CFC7184ADB100083A56E /* system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = system.h; sourceTree = "<group>"; };
+		E240CFCD184ADC460083A56E /* prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefix.h; sourceTree = "<group>"; };
+		E240CFD1184ADD9B0083A56E /* rounding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rounding.h; sourceTree = "<group>"; };
+		E240CFD3184ADECB0083A56E /* addrinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addrinfo.h; sourceTree = "<group>"; };
+		E240CFD4184ADECB0083A56E /* compat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compat.c; sourceTree = "<group>"; };
+		E240CFD9184ADECB0083A56E /* getpass.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getpass.c; sourceTree = "<group>"; };
+		E240CFDC184ADECB0083A56E /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
+		E240CFDE184ADECB0083A56E /* mdfour.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mdfour.c; sourceTree = "<group>"; };
+		E240CFE0184ADECB0083A56E /* mdigest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mdigest.h; sourceTree = "<group>"; };
+		E240CFE1184ADECB0083A56E /* permstring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = permstring.c; sourceTree = "<group>"; };
+		E240CFE2184ADECB0083A56E /* permstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = permstring.h; sourceTree = "<group>"; };
+		E240CFE5184ADECB0083A56E /* pool_alloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pool_alloc.c; sourceTree = "<group>"; };
+		E240CFE6184ADECB0083A56E /* pool_alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pool_alloc.h; sourceTree = "<group>"; };
+		E240CFE8184ADECB0083A56E /* snprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = snprintf.c; sourceTree = "<group>"; };
+		E240CFEA184ADECB0083A56E /* sysacls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sysacls.c; sourceTree = "<group>"; };
+		E240CFEB184ADECB0083A56E /* sysacls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sysacls.h; sourceTree = "<group>"; };
+		E240CFED184ADECB0083A56E /* sysxattrs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sysxattrs.c; sourceTree = "<group>"; };
+		E240CFEE184ADECB0083A56E /* sysxattrs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sysxattrs.h; sourceTree = "<group>"; };
+		E240CFF0184ADECB0083A56E /* wildmatch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wildmatch.c; sourceTree = "<group>"; };
+		E240CFF1184ADECB0083A56E /* wildmatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wildmatch.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E240CE43184AD2B00083A56E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E240CE3D184AD2B00083A56E = {
+			isa = PBXGroup;
+			children = (
+				E240CFCD184ADC460083A56E /* prefix.h */,
+				E240CE74184AD3490083A56E /* rsync */,
+				E240CE47184AD2B00083A56E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E240CE47184AD2B00083A56E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E240CE46184AD2B00083A56E /* rsync */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E240CE74184AD3490083A56E /* rsync */ = {
+			isa = PBXGroup;
+			children = (
+				E240CE76184AD3490083A56E /* access.c */,
+				E240CE78184AD3490083A56E /* acls.c */,
+				E240CE79184AD3490083A56E /* authenticate.c */,
+				E240CE7A184AD3490083A56E /* backup.c */,
+				E240CE7B184AD3490083A56E /* batch.c */,
+				E240CE7C184AD3490083A56E /* byteorder.h */,
+				E240CE7D184AD3490083A56E /* case_N.h */,
+				E240CE7E184AD3490083A56E /* checksum.c */,
+				E240CE7F184AD3490083A56E /* chmod.c */,
+				E240CE80184AD3490083A56E /* cleanup.c */,
+				E240CE81184AD3490083A56E /* clientname.c */,
+				E240CE82184AD3490083A56E /* clientserver.c */,
+				E240CE83184AD3490083A56E /* compat.c */,
+				E240CE85184AD3490083A56E /* config.h */,
+				E240CE8D184AD3490083A56E /* connection.c */,
+				E240CE90184AD3490083A56E /* delete.c */,
+				E240CE96184AD3490083A56E /* errcode.h */,
+				E240CE97184AD3490083A56E /* exclude.c */,
+				E240CE98184AD3490083A56E /* fileio.c */,
+				E240CE99184AD3490083A56E /* flist.c */,
+				E240CE9A184AD3490083A56E /* generator.c */,
+				E240CE9D184AD3490083A56E /* hashtable.c */,
+				E240CE9E184AD3490083A56E /* hlink.c */,
+				E240CE9F184AD3490083A56E /* ifuncs.h */,
+				E240CEA2184AD3490083A56E /* inums.h */,
+				E240CEA3184AD3490083A56E /* io.c */,
+				E240CEA4184AD3490083A56E /* io.h */,
+				E240CEA5184AD3490083A56E /* itypes.h */,
+				E240CFD2184ADECB0083A56E /* lib */,
+				E240CEBE184AD3490083A56E /* loadparm.c */,
+				E240CEBF184AD3490083A56E /* log.c */,
+				E240CEC0184AD3490083A56E /* main.c */,
+				E240CEC3184AD3490083A56E /* match.c */,
+				E240CEC7184AD3490083A56E /* options.c */,
+				E240CED8184AD3490083A56E /* pipe.c */,
+				E240CFB8184ADB100083A56E /* popt */,
+				E240CFB6184ADB010083A56E /* params.c */,
+				E240CEEB184AD3490083A56E /* progress.c */,
+				E240CEEC184AD3490083A56E /* proto.h */,
+				E240CEEF184AD3490083A56E /* receiver.c */,
+				E240CFD1184ADD9B0083A56E /* rounding.h */,
+				E240CEF3184AD3490083A56E /* rsync.c */,
+				E240CEF4184AD3490083A56E /* rsync.h */,
+				E240CEFB184AD3490083A56E /* sender.c */,
+				E240CEFE184AD3490083A56E /* socket.c */,
+				E240CF15184AD3490083A56E /* syscall.c */,
+				E240CF45184AD3490083A56E /* token.c */,
+				E240CF48184AD3490083A56E /* uidlist.c */,
+				E240CF49184AD3490083A56E /* util.c */,
+				E240CF4A184AD3490083A56E /* util2.c */,
+				E240CF4D184AD3490083A56E /* xattrs.c */,
+				E240CF4E184AD3490083A56E /* zlib */,
+			);
+			path = rsync;
+			sourceTree = "<group>";
+		};
+		E240CF4E184AD3490083A56E /* zlib */ = {
+			isa = PBXGroup;
+			children = (
+				E240CF4F184AD3490083A56E /* adler32.c */,
+				E240CF51184AD3490083A56E /* compress.c */,
+				E240CF52184AD3490083A56E /* crc32.c */,
+				E240CF53184AD3490083A56E /* crc32.h */,
+				E240CF54184AD3490083A56E /* deflate.c */,
+				E240CF55184AD3490083A56E /* deflate.h */,
+				E240CF58184AD3490083A56E /* gzguts.h */,
+				E240CF59184AD3490083A56E /* inffast.c */,
+				E240CF5A184AD3490083A56E /* inffast.h */,
+				E240CF5B184AD3490083A56E /* inffixed.h */,
+				E240CF5C184AD3490083A56E /* inflate.c */,
+				E240CF5D184AD3490083A56E /* inflate.h */,
+				E240CF5E184AD3490083A56E /* inftrees.c */,
+				E240CF5F184AD3490083A56E /* inftrees.h */,
+				E240CF62184AD3490083A56E /* trees.c */,
+				E240CF63184AD3490083A56E /* trees.h */,
+				E240CF64184AD3490083A56E /* zconf.h */,
+				E240CF65184AD3490083A56E /* zlib.h */,
+				E240CF66184AD3490083A56E /* zutil.c */,
+				E240CF67184AD3490083A56E /* zutil.h */,
+			);
+			path = zlib;
+			sourceTree = "<group>";
+		};
+		E240CFB8184ADB100083A56E /* popt */ = {
+			isa = PBXGroup;
+			children = (
+				E240CFBD184ADB100083A56E /* findme.c */,
+				E240CFBE184ADB100083A56E /* findme.h */,
+				E240CFBF184ADB100083A56E /* popt.c */,
+				E240CFC0184ADB100083A56E /* popt.h */,
+				E240CFC1184ADB100083A56E /* poptconfig.c */,
+				E240CFC2184ADB100083A56E /* popthelp.c */,
+				E240CFC3184ADB100083A56E /* poptint.h */,
+				E240CFC4184ADB100083A56E /* poptparse.c */,
+				E240CFC7184ADB100083A56E /* system.h */,
+			);
+			path = popt;
+			sourceTree = "<group>";
+		};
+		E240CFD2184ADECB0083A56E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E240CFD3184ADECB0083A56E /* addrinfo.h */,
+				E240CFD4184ADECB0083A56E /* compat.c */,
+				E240CFD9184ADECB0083A56E /* getpass.c */,
+				E240CFDC184ADECB0083A56E /* md5.c */,
+				E240CFDE184ADECB0083A56E /* mdfour.c */,
+				E240CFE0184ADECB0083A56E /* mdigest.h */,
+				E240CFE1184ADECB0083A56E /* permstring.c */,
+				E240CFE2184ADECB0083A56E /* permstring.h */,
+				E240CFE5184ADECB0083A56E /* pool_alloc.c */,
+				E240CFE6184ADECB0083A56E /* pool_alloc.h */,
+				E240CFE8184ADECB0083A56E /* snprintf.c */,
+				E240CFEA184ADECB0083A56E /* sysacls.c */,
+				E240CFEB184ADECB0083A56E /* sysacls.h */,
+				E240CFED184ADECB0083A56E /* sysxattrs.c */,
+				E240CFEE184ADECB0083A56E /* sysxattrs.h */,
+				E240CFF0184ADECB0083A56E /* wildmatch.c */,
+				E240CFF1184ADECB0083A56E /* wildmatch.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E240CE45184AD2B00083A56E /* rsync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E240CE4F184AD2B00083A56E /* Build configuration list for PBXNativeTarget "rsync" */;
+			buildPhases = (
+				E240CE42184AD2B00083A56E /* Sources */,
+				E240CE43184AD2B00083A56E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rsync;
+			productName = TEMP;
+			productReference = E240CE46184AD2B00083A56E /* rsync */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E240CE3E184AD2B00083A56E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = TEMP;
+			};
+			buildConfigurationList = E240CE41184AD2B00083A56E /* Build configuration list for PBXProject "rsync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E240CE3D184AD2B00083A56E;
+			productRefGroup = E240CE47184AD2B00083A56E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E240CE45184AD2B00083A56E /* rsync */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E240CE42184AD2B00083A56E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E240CF74184AD3490083A56E /* delete.c in Sources */,
+				E240CF76184AD3490083A56E /* fileio.c in Sources */,
+				E240CF90184AD3490083A56E /* options.c in Sources */,
+				E240CF7B184AD3490083A56E /* hashtable.c in Sources */,
+				E240CFAC184AD3490083A56E /* xattrs.c in Sources */,
+				E240CF6F184AD3490083A56E /* cleanup.c in Sources */,
+				E240CFCB184ADB100083A56E /* popthelp.c in Sources */,
+				E240CF8C184AD3490083A56E /* log.c in Sources */,
+				E240CF9C184AD3490083A56E /* rsync.c in Sources */,
+				E240CFB2184AD3490083A56E /* inflate.c in Sources */,
+				E240CF72184AD3490083A56E /* compat.c in Sources */,
+				E240CFFD184ADECB0083A56E /* permstring.c in Sources */,
+				E240CF7D184AD3490083A56E /* io.c in Sources */,
+				E240D001184ADECB0083A56E /* snprintf.c in Sources */,
+				E240CF73184AD3490083A56E /* connection.c in Sources */,
+				E240CFF6184ADECB0083A56E /* getpass.c in Sources */,
+				E240CFCC184ADB100083A56E /* poptparse.c in Sources */,
+				E240CF6C184AD3490083A56E /* batch.c in Sources */,
+				E240CFF9184ADECB0083A56E /* md5.c in Sources */,
+				E240CFB4184AD3490083A56E /* trees.c in Sources */,
+				E240CFF3184ADECB0083A56E /* compat.c in Sources */,
+				E240CFCA184ADB100083A56E /* poptconfig.c in Sources */,
+				E240CFC8184ADB100083A56E /* findme.c in Sources */,
+				E240D003184ADECB0083A56E /* sysacls.c in Sources */,
+				E240CFB1184AD3490083A56E /* inffast.c in Sources */,
+				E240CF99184AD3490083A56E /* progress.c in Sources */,
+				E240CF9E184AD3490083A56E /* socket.c in Sources */,
+				E240CF69184AD3490083A56E /* acls.c in Sources */,
+				E240CF8B184AD3490083A56E /* loadparm.c in Sources */,
+				E240CF75184AD3490083A56E /* exclude.c in Sources */,
+				E240CFB3184AD3490083A56E /* inftrees.c in Sources */,
+				E240D005184ADECB0083A56E /* sysxattrs.c in Sources */,
+				E240CFB0184AD3490083A56E /* deflate.c in Sources */,
+				E240CF6E184AD3490083A56E /* chmod.c in Sources */,
+				E240CF71184AD3490083A56E /* clientserver.c in Sources */,
+				E240CF8D184AD3490083A56E /* main.c in Sources */,
+				E240CF92184AD3490083A56E /* pipe.c in Sources */,
+				E240CF78184AD3490083A56E /* generator.c in Sources */,
+				E240CF7C184AD3490083A56E /* hlink.c in Sources */,
+				E240CFFB184ADECB0083A56E /* mdfour.c in Sources */,
+				E240CF6A184AD3490083A56E /* authenticate.c in Sources */,
+				E240CF9A184AD3490083A56E /* receiver.c in Sources */,
+				E240CFC9184ADB100083A56E /* popt.c in Sources */,
+				E240CFAA184AD3490083A56E /* util2.c in Sources */,
+				E240CFA8184AD3490083A56E /* uidlist.c in Sources */,
+				E240CF6D184AD3490083A56E /* checksum.c in Sources */,
+				E240CFAE184AD3490083A56E /* compress.c in Sources */,
+				E240CF77184AD3490083A56E /* flist.c in Sources */,
+				E240CFAF184AD3490083A56E /* crc32.c in Sources */,
+				E240CF9D184AD3490083A56E /* sender.c in Sources */,
+				E240CF6B184AD3490083A56E /* backup.c in Sources */,
+				E240CFA6184AD3490083A56E /* token.c in Sources */,
+				E240CF68184AD3490083A56E /* access.c in Sources */,
+				E240CFA1184AD3490083A56E /* syscall.c in Sources */,
+				E240CFA9184AD3490083A56E /* util.c in Sources */,
+				E240CFAD184AD3490083A56E /* adler32.c in Sources */,
+				E240D007184ADECB0083A56E /* wildmatch.c in Sources */,
+				E240D009184B10590083A56E /* params.c in Sources */,
+				E240CF8F184AD3490083A56E /* match.c in Sources */,
+				E240CFFF184ADECB0083A56E /* pool_alloc.c in Sources */,
+				E240CF70184AD3490083A56E /* clientname.c in Sources */,
+				E240CFB5184AD3490083A56E /* zutil.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E240CE4D184AD2B00083A56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEAD_CODE_STRIPPING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu89;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wno-pointer-sign",
+				);
+			};
+			name = Debug;
+		};
+		E240CE4E184AD2B00083A56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu89;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wno-pointer-sign",
+				);
+			};
+			name = Release;
+		};
+		E240CE50184AD2B00083A56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREFIX_HEADER = prefix.h;
+				HEADER_SEARCH_PATHS = rsync/popt;
+				OTHER_LDFLAGS = "-liconv";
+				PRODUCT_NAME = rsync;
+			};
+			name = Debug;
+		};
+		E240CE51184AD2B00083A56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREFIX_HEADER = prefix.h;
+				HEADER_SEARCH_PATHS = rsync/popt;
+				OTHER_LDFLAGS = "-liconv";
+				PRODUCT_NAME = rsync;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E240CE41184AD2B00083A56E /* Build configuration list for PBXProject "rsync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E240CE4D184AD2B00083A56E /* Debug */,
+				E240CE4E184AD2B00083A56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E240CE4F184AD2B00083A56E /* Build configuration list for PBXNativeTarget "rsync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E240CE50184AD2B00083A56E /* Debug */,
+				E240CE51184AD2B00083A56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E240CE3E184AD2B00083A56E /* Project object */;
+}
